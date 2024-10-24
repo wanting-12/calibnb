@@ -1,0 +1,161 @@
+.ptb-48 {
+  padding: 48px 0;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.rbox-star {
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.rbox-review-count {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.mb-26 {
+  margin-bottom: 26px;
+}
+
+.rating-block {
+  margin-right: 8.33%;
+  margin-left: 0%;
+  width: 41.67%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+  margin-left: 12px;
+}
+
+.rating-bar {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  margin-right: 4px;
+  background: rgb(221, 221, 221);
+  border-radius: 2px;
+}
+
+.rating-bar-black {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: #222222;
+  border-radius: 2px;
+}
+
+.rate-bar-container,
+.review-content-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bar-rating-num {
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.review-content-block {
+  width: 41.67%;
+  margin-right: 8.33%;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+}
+
+.content-text-container {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.r-text-top {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+}
+
+.r-name {
+  padding-bottom: 2px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.r-ml-16 {
+  margin-left: 16px;
+}
+
+.r-date {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9e9d9d;
+}
+
+.r-icon {
+  height: 46px;
+  width: 46px;
+}
+
+.br-50 {
+  border-radius: 50%;
+  background: rgb(221, 221, 221);
+}
+
+.r-img {
+  object-fit: cover;
+  /* vertical-align: bottom; */
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.r-text-container {
+  overflow: scroll;
+  text-overflow: ellipsis;
+  line-height: 28px;
+  word-wrap: break-word;
+  font-size: 18px;
+  font-weight: 300;
+  /* letter-spacing: 0.6px; */
+}
+
+.r-show-more {
+  margin-top: 8px;
+}
+
+.r-show-more-button {
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(34, 34, 34);
+  text-decoration: underline;
+  border-radius: 4px;
+  font-weight: 600;
+}

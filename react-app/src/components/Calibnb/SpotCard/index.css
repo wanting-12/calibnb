@@ -1,0 +1,73 @@
+.sc-one {
+  margin-bottom: 30px;
+  border: 1px solid #dddddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  min-height: 200px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.sc-body {
+  /* width: 33.33%; */
+  margin: 10px auto;
+}
+
+.sc-one-container {
+  display: flex;
+  align-items: center;
+}
+
+.sc-img-container {
+  width: 80%;
+  height: 60%;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.cs-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.sc-date {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.sc-date-text {
+  font-size: 16px;
+  color: #9e9d9d;
+}
+
+.w-70 {
+  width: 75%;
+}
+
+.sc-buttons {
+  width: 20%;
+  margin-top: 10px;
+  /* margin-right: 10px; */
+}
+
+.sc-edit-bt,
+.sc-del-bt {
+  width: 100%;
+  padding: 15% 10%;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  background: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  color: rgb(255, 255, 255);
+  min-height: 26px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* maybe add hover css later */

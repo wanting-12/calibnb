@@ -1,0 +1,267 @@
+.wd-container {
+  max-width: 1560px;
+  padding: 0 40px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.wd-top {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 24px 0;
+}
+
+.wd-go-back,
+.wd-more {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  transition: transform 0.25s ease;
+}
+
+.fa-arrow-left {
+  font-size: 20px;
+}
+
+.fa-ellipsis {
+  font-size: 24px;
+}
+
+.wd-mid {
+  margin-bottom: 50px;
+}
+
+.wd-mid-h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 500;
+  /* letter-spacing: 0.8px; */
+}
+
+.wd-grid {
+  display: grid;
+  grid-auto-rows: minmax(min-content, max-content);
+  column-gap: 24px;
+  row-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-block: 24px;
+}
+
+.wd-grid-card {
+  text-decoration: none;
+  color: #222222;
+  /* font-size: 18px; */
+  line-height: 19px;
+}
+
+.wd-img-box {
+  height: 300px;
+}
+
+.wd-one-spot-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.ewl-del-bt {
+  cursor: pointer;
+  margin: 0 -10px;
+  text-align: center;
+  min-height: 50px;
+  /* width: auto; */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.ewl-del-bt:hover {
+  background: #f6f6f6;
+}
+
+/* .wl-x-text::before {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  position: absolute;
+} */
+
+.wl-x-bt:hover {
+  /* padding: 8px; */
+  background: #f6f6f6;
+}
+
+.ewl-header-text {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.ewl-body-new {
+  /* height: 160px; */
+  padding: 36px 24px;
+  overflow-y: auto;
+}
+
+.ewl-header {
+  min-height: 68px;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  color: rgb(34, 34, 34);
+  /* font-size: 18px;
+  line-height: 20px;
+  font-weight: 800; */
+  padding: 12px 24px 24px 24px;
+}
+
+.ewl-footer {
+  display: flex;
+  flex: 0 0 auto;
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 20px;
+}
+
+.ewl-cancel-bt {
+  cursor: pointer;
+  margin: 0 -10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  min-height: 50px;
+  /* padding: 14px 24px; */
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.ewl-cancel-bt:hover {
+  background: #f6f6f6;
+}
+
+.ewl-save-bt {
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 8px;
+  width: auto;
+  padding: 14px 24px;
+  background: #222222;
+  color: #ffffff;
+}
+
+.ewl-save-bt-disable {
+  cursor: not-allowed;
+  opacity: 1;
+  border: none;
+  background: #dddddd;
+  color: #ffffff;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  contain: paint;
+  /* width: 100%; */
+  line-height: 20px;
+}
+/* .wd-more {
+  transition: all 0.5s ease-in;
+} */
+
+/* .wl-form {
+  transition: all ease 1s;
+} */
+
+/* .wl-x-cancel:focus {
+  opacity: 0;
+  animation: hide 0.25s;
+  transform: scale(0);
+  z-index: -1;
+}
+@keyframes hide {
+  from {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+  }
+} */
+
+/* .wl-form {
+  opacity: 1;
+  animation: show 0.2s;
+  transform: scale(1);
+  z-index: 10;
+}
+@keyframes show {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10;
+  }
+} */
+.ed-del-modal {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: rgb(0, 0, 0, 0.28) 0 8px 28px;
+}
+
+.dwl-body-new {
+  padding: 24px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  outline: none;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1440px) {
+  .wd-container {
+    padding: 0 80px;
+    /* margin: 46px auto; */
+  }
+}

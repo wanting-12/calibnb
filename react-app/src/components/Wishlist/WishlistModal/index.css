@@ -1,0 +1,328 @@
+.wl-form {
+  width: 100%;
+  max-width: 568px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  /* animation-name: keyframe; */
+}
+
+.wl-x-cancel {
+  position: absolute;
+  display: flex;
+  left: 24px;
+  top: 24px;
+  z-index: 1;
+}
+
+.wl-x-bt {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  transition: transform 0.25s ease;
+}
+
+.wl-x-text {
+  position: relative;
+}
+
+.wl-x-svg {
+  display: block;
+  fill: none;
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 3;
+  overflow: visible;
+}
+
+.wl-header {
+  min-height: 64px;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  color: rgb(34, 34, 34);
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.wl-header-left {
+  flex: 0 0 16px;
+  text-align: left;
+}
+
+.wl-header-mid {
+  overflow: hidden;
+  flex: 0 1 auto;
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.wl-header-right {
+  flex: 0 0 16px;
+  text-align: right;
+}
+
+.wl-header-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.wl-body {
+  padding: 20px 16px;
+  overflow-y: auto;
+}
+
+.wl-block-bt {
+  cursor: pointer;
+  position: relative;
+  touch-action: manipulation;
+  border-radius: 0;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.pt-2 {
+  padding-top: 2px;
+}
+
+.ptb-8 {
+  padding: 8px 0;
+}
+
+.br-1 {
+  border-radius: 1px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.wl-block-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.block-plus {
+  border-radius: 8px;
+  height: 64px;
+  width: 64px;
+}
+
+.block-plus-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.wl-br-text {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.wl-body-new {
+  height: 160px;
+  padding: 32px 16px;
+  overflow-y: auto;
+}
+
+.wl-input-box {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  min-height: 64px;
+  width: 100%;
+  margin: 0px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20;
+}
+
+.wl-input {
+  padding: 16px 12px 6px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* .wl-input-box:hover, */
+.wl-input:focus {
+  box-shadow: rgb(34, 34, 34) 0 0 0 2px inset;
+}
+
+.wl-max-text {
+  display: flex;
+  color: rgb(113, 113, 113);
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.red {
+  color: #ff385c;
+}
+
+.wl-footer {
+  display: flex;
+  flex: 0 0 auto;
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 20px;
+}
+
+.wl-create-bt-disable {
+  cursor: not-allowed;
+  opacity: 1;
+  border: none;
+  background: #dddddd;
+  color: #ffffff;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  contain: paint;
+  width: 100%;
+  line-height: 20px;
+}
+
+.wl-create-bt {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  contain: paint;
+  width: 100%;
+  line-height: 20px;
+  color: #ffffff;
+  background: #222222;
+}
+/* .wl-form {
+  margin: 20px;
+  padding: 20px;
+}
+.wl-wishlist-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.m-20 {
+  margin: 40px 0;
+}
+.wl-or {
+  font-size: 18px;
+  width: 100%;
+}
+.wl-or::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+  margin-right: 16px;
+}
+.wl-or::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+  margin-left: 16px;
+}
+.wl-title {
+  margin: 12px 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+.wl-input-label {
+  margin-bottom: 5px;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.wl-input-box {
+  height: 42px;
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 8px;
+  border: 2px solid #dddddd;
+  cursor: pointer;
+  font-size: 18px;
+}
+.wl-input-box:hover,
+.wl-input-box:focus {
+  outline: none;
+  border: 2px solid #222222;
+}
+.wl-form-bt {
+  margin-top: 40px;
+}
+.wl-cancel-bt,
+.wl-save-bt {
+  height: 36px;
+  width: 18%;
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 8px;
+}
+.wl-select {
+  height: 40px;
+  width: 160px;
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.wl-option {
+  font-size: 18px;
+  background-color: white;
+} */

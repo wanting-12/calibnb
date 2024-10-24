@@ -1,0 +1,170 @@
+.cr-form-container {
+  max-width: 1560px;
+  margin: 30px auto;
+  padding: 0 40px;
+  display: flex;
+  /* justify-content: center; */
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.cr-form-sticky {
+  position: sticky;
+  top: 100px;
+  display: inline-block;
+  width: 100%;
+}
+.crfs-one {
+  margin: 10px 0;
+  /* padding: 12px; */
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crfs-img-container {
+  width: 90%;
+  height: 100%;
+}
+.crfs-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* review page left side */
+.cr-form-spot-info {
+  width: 36.33%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.crfs-two {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 5px 0;
+  padding: 0 5%;
+}
+.crfs-l-text {
+  font-size: 18px;
+  font-weight: 800;
+}
+.crfs-hosted,
+.crfs-stay {
+  margin-top: 8px;
+}
+.crfs-text {
+  font-size: 18px;
+  color: #9e9d9d;
+}
+/* review form with star rating */
+.cl-block {
+  float: left;
+  height: 42px;
+  padding: 0 10px;
+}
+.cl-block input {
+  display: none;
+}
+.cl-block label {
+  font-size: 25px;
+  color: #dddddd;
+  padding: 10px 0 0px 5px;
+  float: right;
+  transition: all 0.2s ease;
+}
+.cl-block > input:checked ~ label {
+  color: #fd4;
+  z-index: 100;
+}
+.cl-block > input:not(:checked) + label:hover,
+.cl-block > input:checked + label:hover,
+.cl-block:not(:checked) > label:hover ~ label {
+  color: #fd4;
+  cursor: pointer;
+}
+
+/* .cl-block > input:not(:checked) + label:hover,
+.cl-block > input:not(:checked) > label:hover ~ label {
+  color: #fd4;
+} */
+/* .cl-block > input:checked + label:hover,
+.cl-block > input:checked + label:hover ~ label,
+.cl-block > input:checked ~ label:hover,
+.cl-block > input:checked ~ label:hover ~ label,
+.cl-block > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+  /* color: #fd4; */
+
+/* form body */
+.cr-form-box {
+  width: 55.33%;
+  margin-left: 8.33%;
+  margin-right: 0%;
+}
+.cr-form-body {
+  margin: 20px 10px;
+}
+.cr-rating-block,
+.cr-content-block {
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #dddddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+.cr-label,
+.cr-content-label {
+  font-size: 18px;
+  font-weight: 800;
+  color: #222222;
+}
+.cr-content-block {
+  min-height: 150px;
+  /* width: 100%; */
+  height: 100%;
+  overflow: hidden;
+}
+.cr-content-text {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  /* min-height: 100px; */
+  outline: none;
+  color: #222222;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  font-size: 18px;
+  resize: none;
+  border-radius: 8px;
+  font-family: Helvetica Neue;
+}
+.cr-content-text:focus {
+  border-color: #222222;
+}
+.cr-bt-block {
+  cursor: pointer;
+  /* padding: 18px 15px 18px 15px; */
+  margin: 5px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 24px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  /* width: 100%; */
+  min-height: 47px;
+  height: 100%;
+  border-radius: 8px;
+}
+.cr-form-error {
+  margin-left: 8px;
+  color: #ff385c;
+  font-size: 12px;
+}

@@ -1,0 +1,33 @@
+.l-img-block {
+  width: 100%;
+  height: 320px;
+  border-radius: 12px;
+  background: rgb(235, 235, 235);
+}
+
+.lb-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lb-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.lb-right {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.l-left-block,
+.l-right-block {
+  height: 24px;
+  background: rgb(235, 235, 235);
+  width: 80%;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}

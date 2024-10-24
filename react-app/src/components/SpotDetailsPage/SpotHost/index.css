@@ -1,0 +1,141 @@
+.jc-ini {
+  justify-content: initial;
+}
+
+.pf-host-detail {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wh-76 {
+  width: 76px;
+  height: 76px;
+}
+
+.pf-host-icon {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.pf-host-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+/* .ab-superhost {
+  position: absolute;
+  bottom: 0;
+  right: -8px;
+}
+
+.pf-sh-svg {
+  width: 14px;
+  height: 24px;
+} */
+
+.pf-host-by {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 26px;
+  /* letter-spacing: 0.8px; */
+  margin-bottom: 6px;
+}
+
+.pf-join-date {
+  font-size: 17px;
+  font-weight: 400;
+  color: #9e9d9d;
+}
+
+.plr-16-left {
+  padding: 0 16px;
+  width: 41.67%;
+}
+
+.pf-host-detail-right {
+  position: relative;
+  padding: 0 8px;
+  width: 41.67%;
+  margin-left: 8.33%;
+}
+
+.pf-ul-style {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.pf-li-style {
+  margin-bottom: 16px;
+  padding: 0 16px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.pf-total-review {
+  margin-left: 8px;
+}
+
+.fs-20 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.pf-re-ul-style {
+  padding-left: 0px;
+  margin-top: 0;
+  margin-right: 0;
+  list-style: none;
+}
+
+.pf-re-li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.contact-button {
+  /* cursor: pointer; */
+  cursor: not-allowed;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 40%;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 13px 23px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.super-text {
+  font-weight: 300;
+  line-height: 28px;
+  /* letter-spacing: 0.7px; */
+}

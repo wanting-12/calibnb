@@ -1,0 +1,45 @@
+.footer-container {
+  position: relative;
+  background-color: #f7f7f7;
+  border-top: 1px solid #dddddd;
+  min-height: 120px;
+  margin-top: 220px;
+}
+.footer-box {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 48px 40px 24px 40px;
+}
+.developer-text {
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 12px;
+}
+.de-profile-svg {
+  width: 24px;
+  height: 24px;
+}
+.mr-12 {
+  margin-right: 16px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.github {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+
+  color: #222222;
+}
+.cursor {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-box {
+    padding: 48px 80px 24px;
+    margin: 0 auto;
+  }
+}

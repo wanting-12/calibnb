@@ -1,0 +1,13 @@
+.site-content {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media screen and (min-width: 1440px) {
+  .site-content {
+    padding: 0 80px;
+    margin: 0 auto;
+  }
+}

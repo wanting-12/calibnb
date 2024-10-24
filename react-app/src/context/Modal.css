@@ -1,0 +1,108 @@
+#modal {
+  position: fixed;
+  top: -30px;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  padding: 40px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-background-short {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-background-wishlist {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#modal-content {
+  position: relative;
+  box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;
+  background-color: white;
+  width: 100%;
+  max-width: 568px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+#modal-content-login {
+  position: relative;
+  box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;
+  background-color: white;
+  width: 100%;
+  max-width: 614px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+#modal-content-short {
+  position: relative;
+  box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;
+  background-color: white;
+  width: 100%;
+  max-width: 568px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 12px;
+  /* overflow: auto; */
+}
+
+#modal-content-signup {
+  position: relative;
+  box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;
+  background-color: white;
+  width: 100%;
+  max-width: 680px;
+  height: 80vh;
+  margin: auto;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+/* .wl-transform-modal {
+  opacity: 1;
+  animation: show 0.5s;
+  transform: scale(1);
+}
+@keyframes show {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+} */
+
+/* #modal-content {
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform, opacity, visibility;
+} */

@@ -1,0 +1,50 @@
+.calibnb-container {
+  margin: 40px auto 0 auto;
+  max-width: 1560px;
+  padding: 0 40px;
+  min-height: 100vh;
+}
+
+.cc-header {
+  padding: 12px 0 24px 0;
+}
+
+.cc-header-h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.no-spots-container {
+  margin: 40px;
+  text-align: center;
+}
+
+.no-spots-text {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.click-to-create {
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.spot-card {
+  padding: 20px;
+  /* border: 1px solid pink; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .calibnb-container {
+    padding: 0 80px;
+    /* margin: 46px auto; */
+  }
+}
